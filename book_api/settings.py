@@ -58,6 +58,7 @@ MIDDLEWARE = [
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",  # Add your frontend's URL
+    "https://book-api-frontend.vercel.app",
 ]
 
 ROOT_URLCONF = 'book_api.urls'
